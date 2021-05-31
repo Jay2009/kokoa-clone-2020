@@ -1,3 +1,3 @@
 # KOKOA Clone 2020 update
 
-CSS TECH IS AMAZING.
+HTML & CSS and java script portfolio!
