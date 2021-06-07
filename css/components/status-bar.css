@@ -1,6 +1,6 @@
 .status-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 5px 3px;
 }
 .status-bar__column {
@@ -19,6 +19,6 @@
   align-items: center;
 }
 
-.staus-bar__column .fa-battery-full {
+.status-bar__column .fa-battery-quarter {
   margin: 0px 5px;
 }
