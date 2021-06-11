@@ -6,7 +6,6 @@
 .user-component__column:first-child {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
 }
 
 .user-component__avatar {
@@ -49,4 +48,10 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__info-red {
+  display: inline-flex;
+  color: tomato;
+  opacity: 0.7;
 }
