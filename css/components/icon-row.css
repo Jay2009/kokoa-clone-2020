@@ -1,12 +1,17 @@
 .icon-row {
-  display: flex;
+  display: grid;
+  grid-template-rows: 120px 120px;
+  column-gap: 10px;
+  grid-template-columns: 110px 110px 110px 110px;
   justify-content: space-between;
+  opacity: 0.8;
 }
 
 .icon-row__icon {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .icon-row__icon i {
@@ -14,5 +19,20 @@
 }
 
 .icon-row__icon span {
+  font-size: 15px;
   margin-top: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.icon-row :nth-child(7) {
+  color: gray;
+  opacity: 0.6;
+  display: grid;
+  grid-row: 2;
+  grid-column: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
