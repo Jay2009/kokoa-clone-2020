@@ -22,9 +22,9 @@
 @import "screens/chat.css";
 
 body {
+  height: 180vh;
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
-  height: 180vh;
 }
 
 .main-screen {

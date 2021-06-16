@@ -1,14 +1,13 @@
 #no-mobile {
   position: absolute;
   z-index: 99;
-  height: 200vh;
+  height: 220%;
   background-color: var(--yellow);
   opacity: 0.92;
   width: 100vw;
   display: flex;
   top: 0;
   justify-content: center;
-  align-items: center;
   font-size: 26px;
   text-align: center;
 }
@@ -17,4 +16,7 @@
   #no-mobile {
     display: none;
   }
+}
+#no-mobile span {
+  margin-top: 30vh;
 }

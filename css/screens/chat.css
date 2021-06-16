@@ -8,6 +8,7 @@
   width: 100%;
   box-sizing: border-box;
   background-color: #abc1d1;
+  font-size: 17px;
 }
 
 #chat-screen .status-bar {
